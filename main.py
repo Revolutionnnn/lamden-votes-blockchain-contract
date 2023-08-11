@@ -25,7 +25,7 @@ def createProposal(name: str, proposalVote: str):
     proposal_pro = proposal['proposal']
     votes = proposal['votes']
     creator = proposal['creator']
-    result = [proposal_id, proposal_pro, votes, creator]
+    result = [proposal_id, nombre, proposal_pro, votes, creator]
     return result
 
 
