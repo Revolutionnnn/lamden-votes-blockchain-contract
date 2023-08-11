@@ -25,8 +25,8 @@ def createProposal(name: str, proposalVote: str):
     proposal_pro = proposal['proposal']
     votes = proposal['votes']
     creator = proposal['creator']
-    Text = f'ID: {proposal_id}, NAME: {nombre}, PROPOSAL: {proposal_pro}, VOTES: {votes}, CREATOR: {creator}'
-    return Text
+    result = [proposal_id, proposal_pro, votes, creator]
+    return result
 
 
 
